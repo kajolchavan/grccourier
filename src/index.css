@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "InterRegular";
+    src: local("InterRegular"),
+        url("./webfonts/Inter-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "InterBold";
+    src: local("InterBold"),
+        url("./webfonts/Inter-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "InterSemibold";
+    src: local("InterSemibold"),
+        url("./webfonts/Inter-SemiBold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "InterMedium";
+    src: local("InterMedium"),
+        url("./webfonts/Inter-Medium.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "InterBlack";
+    src: local("InterBlack"),
+        url("./webfonts/Inter-Black.ttf") format("truetype");
+    font-weight: bold;
+}
+
+body::-webkit-scrollbar {
+    width: .6em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgb(201, 201, 201);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2967B0;
+    outline: 1px solid #2967B0;
+    border-radius: 0px;
+   
+}
+
+div::-webkit-scrollbar {
+    width: .5em;
+    padding: 5px 5px;
+ 
+}
+
+div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgb(201, 201, 201);
+    padding: 5px 5px;
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #2967B0;
+    outline: 1px solid #2967B0;
+    border-radius: 0px;
+
+}
+
+.dialogBox::-webkit-scrollbar {
+    width: .4em;
+    padding: 5px 5px;
+}
+
+.dialogBox::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgb(201, 201, 201);
+    padding: 5px 5px;
+}
+
+.dialogBox::-webkit-scrollbar-thumb {
+    background-color: #2967B0;
+    outline: 1px solid #2967B0;
+    border-radius: 0px;
+
+}
+.sidebar::-webkit-scrollbar{
+    width: .4em;
+        padding: 5px 5px;
+}
+.sidebar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgb(201, 201, 201);
+    padding: 5px 5px;
+    display: none;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #2967B0;
+    outline: 1px solid #2967B0;
+    border-radius: 0px;
+
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button,
+input[type='number'] {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield !important;
+}
